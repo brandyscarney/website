@@ -35,7 +35,7 @@ body {
 
   .social-icons {
     list-style-type: none;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     display: table-cell;
     vertical-align: bottom;
 
@@ -43,9 +43,13 @@ body {
       display: inline;
 
       a {
-        font-size: 110%;
+        font-size: 150%;
         text-decoration: none;
         padding: .2em 0.5em;
+
+        @media #{$small-only} {
+          font-size: 110%
+        }
 
         :before {
           color: #01579B;

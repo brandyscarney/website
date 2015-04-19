@@ -9202,7 +9202,7 @@ body {
 /* line 36, ../scss/_global.scss */
 .header .social-icons {
   list-style-type: none;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   display: table-cell;
   vertical-align: bottom;
 }
@@ -9212,20 +9212,26 @@ body {
 }
 /* line 45, ../scss/_global.scss */
 .header .social-icons li a {
-  font-size: 110%;
+  font-size: 150%;
   text-decoration: none;
   padding: .2em 0.5em;
 }
-/* line 50, ../scss/_global.scss */
+@media only screen and (max-width: 40em) {
+  /* line 45, ../scss/_global.scss */
+  .header .social-icons li a {
+    font-size: 110%;
+  }
+}
+/* line 54, ../scss/_global.scss */
 .header .social-icons li a :before {
   color: #01579B;
 }
-/* line 54, ../scss/_global.scss */
+/* line 58, ../scss/_global.scss */
 .header .social-icons li a:hover :before {
   color: #039BE5;
 }
 
-/* line 63, ../scss/_global.scss */
+/* line 67, ../scss/_global.scss */
 .divider {
   background: white;
   height: 45px;

@@ -27,11 +27,14 @@ body {
 
   .social-icons-column {
     display: table;
+
+    @media #{$small-only} {
+      margin-top: 10px;
+    }
   }
 
   .social-icons {
     list-style-type: none;
-    margin: 0;
     padding-bottom: 15px;
     display: table-cell;
     vertical-align: bottom;
@@ -40,6 +43,7 @@ body {
       display: inline;
 
       a {
+        font-size: 110%;
         text-decoration: none;
         padding: .2em 0.5em;
 

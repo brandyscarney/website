@@ -9193,33 +9193,39 @@ body {
 .header .social-icons-column {
   display: table;
 }
-/* line 32, ../scss/_global.scss */
+@media only screen and (max-width: 40em) {
+  /* line 28, ../scss/_global.scss */
+  .header .social-icons-column {
+    margin-top: 10px;
+  }
+}
+/* line 36, ../scss/_global.scss */
 .header .social-icons {
   list-style-type: none;
-  margin: 0;
   padding-bottom: 15px;
   display: table-cell;
   vertical-align: bottom;
 }
-/* line 39, ../scss/_global.scss */
+/* line 42, ../scss/_global.scss */
 .header .social-icons li {
   display: inline;
 }
-/* line 42, ../scss/_global.scss */
+/* line 45, ../scss/_global.scss */
 .header .social-icons li a {
+  font-size: 110%;
   text-decoration: none;
   padding: .2em 0.5em;
 }
-/* line 46, ../scss/_global.scss */
+/* line 50, ../scss/_global.scss */
 .header .social-icons li a :before {
   color: #01579B;
 }
-/* line 50, ../scss/_global.scss */
+/* line 54, ../scss/_global.scss */
 .header .social-icons li a:hover :before {
   color: #039BE5;
 }
 
-/* line 59, ../scss/_global.scss */
+/* line 63, ../scss/_global.scss */
 .divider {
   background: white;
   height: 45px;

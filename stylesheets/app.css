@@ -9179,8 +9179,8 @@ body {
   font-size: 300%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 10, ../scss/_global.scss */
-  .header {
+  /* line 13, ../scss/_global.scss */
+  .header h1 {
     font-size: 250%;
   }
 }

@@ -14,10 +14,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 300%;
-  }
 
-  @media #{$small-only} {
-    font-size: 250%;
+    @media #{$small-only} {
+      font-size: 250%;
+    }
   }
 
   i {

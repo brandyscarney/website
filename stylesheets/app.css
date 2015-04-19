@@ -9157,3 +9157,70 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 1, ../scss/_global.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/_global.scss */
+body {
+  background-color: #F5F5F5;
+}
+
+/* line 10, ../scss/_global.scss */
+.header {
+  padding-top: 20px;
+}
+/* line 13, ../scss/_global.scss */
+.header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 300%;
+}
+/* line 19, ../scss/_global.scss */
+.header i {
+  color: #777;
+  font-style: normal;
+}
+/* line 24, ../scss/_global.scss */
+.header .social-icons-column {
+  display: table;
+}
+/* line 28, ../scss/_global.scss */
+.header .social-icons {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 15px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+/* line 35, ../scss/_global.scss */
+.header .social-icons li {
+  display: inline;
+}
+/* line 38, ../scss/_global.scss */
+.header .social-icons li a {
+  text-decoration: none;
+  padding: .2em 0.5em;
+}
+/* line 42, ../scss/_global.scss */
+.header .social-icons li a :before {
+  color: #01579B;
+}
+/* line 46, ../scss/_global.scss */
+.header .social-icons li a:hover :before {
+  color: #039BE5;
+}
+
+/* line 55, ../scss/_global.scss */
+.divider {
+  background: white;
+  height: 45px;
+  width: 100%;
+  margin: 10px 0;
+  -webkit-box-shadow: 0 1px 3px #d8d8d8;
+  -moz-box-shadow: 0 1px 3px #d8d8d8;
+  -ms-box-shadow: 0 1px 3px #d8d8d8;
+  box-shadow: 0 1px 3px #d8d8d8;
+}

@@ -9178,16 +9178,22 @@ body {
   font-weight: 100;
   font-size: 300%;
 }
-/* line 19, ../scss/_global.scss */
+@media only screen and (max-width: 40em) {
+  /* line 10, ../scss/_global.scss */
+  .header {
+    font-size: 250%;
+  }
+}
+/* line 23, ../scss/_global.scss */
 .header i {
   color: #777;
   font-style: normal;
 }
-/* line 24, ../scss/_global.scss */
+/* line 28, ../scss/_global.scss */
 .header .social-icons-column {
   display: table;
 }
-/* line 28, ../scss/_global.scss */
+/* line 32, ../scss/_global.scss */
 .header .social-icons {
   list-style-type: none;
   margin: 0;
@@ -9195,25 +9201,25 @@ body {
   display: table-cell;
   vertical-align: bottom;
 }
-/* line 35, ../scss/_global.scss */
+/* line 39, ../scss/_global.scss */
 .header .social-icons li {
   display: inline;
 }
-/* line 38, ../scss/_global.scss */
+/* line 42, ../scss/_global.scss */
 .header .social-icons li a {
   text-decoration: none;
   padding: .2em 0.5em;
 }
-/* line 42, ../scss/_global.scss */
+/* line 46, ../scss/_global.scss */
 .header .social-icons li a :before {
   color: #01579B;
 }
-/* line 46, ../scss/_global.scss */
+/* line 50, ../scss/_global.scss */
 .header .social-icons li a:hover :before {
   color: #039BE5;
 }
 
-/* line 55, ../scss/_global.scss */
+/* line 59, ../scss/_global.scss */
 .divider {
   background: white;
   height: 45px;

@@ -16,6 +16,10 @@ body {
     font-size: 300%;
   }
 
+  @media #{$small-only} {
+    font-size: 250%;
+  }
+
   i {
     color: #777;
     font-style: normal;

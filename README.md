@@ -1,4 +1,7 @@
 # Personal Website
-www.brandycarney.com
+[www.brandycarney.com](www.brandycarney.com)
 
-## Requirements
+## Run Locally
+```
+http-server ./
+```

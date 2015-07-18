@@ -1,37 +1,160 @@
+html, body {
+  height: 100%;
+}
 body {
   background-color: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
 }
-.header {
-  margin-top: 40px;
+::selection {
+  background: #33CD5F;
+}
+.main-container {
+  margin: 0;
+  padding: 40px;
+  max-width: 400px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.black-bg {
+  margin-left: 401px;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+.img-container {
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image:url("../img/abstract.jpg");
+  background-color: black;
 }
 .header h1 {
   font-weight: 100;
   font-size: 300%;
+  letter-spacing: 1px;
 }
-.header i {
-  color: #777;
-  font-style: normal;
+.content {
+  font-weight: 300;
+  color: #333;
+  font-size: 115%;
+  padding: 40px 0;
+  letter-spacing: 0.5px;
 }
-.header .social-icons-column {
-  display: table;
+.content p {
+  margin-bottom: 20px;
 }
-.header .social-icons {
-  list-style-type: none;
-  padding-bottom: 5px;
-  display: table-cell;
-  vertical-align: bottom;
+.social-icons {
+  margin: 0 !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 40px 40px 40px;
 }
-.header .social-icons li {
-  display: inline;
-}
-.header .social-icons li a {
-  font-size: 150%;
+.social-icons a {
+  display: inline-block;
+  font-size: 200%;
   text-decoration: none;
-  padding: .2em 0.5em;
+  padding: 0;
 }
-.header .social-icons li a :before {
-  color: #01579B;
+a, a .icon:before {
+  color: #2db855 !important;
 }
-.header .social-icons li a:hover :before {
-  color: #039BE5;
+a:hover, a:hover .icon:before {
+  color: #33CD5F !important;
+  text-decoration: none !important;
+}
+a::selection {
+  color: #ffffff;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.fade-in {
+  opacity:0;
+  opacity:1 \9;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fade-in-down {
+  -webkit-animation: fadeInDown 1s;
+  -moz-animation: fadeInDown 1s;
+  -ms-animation: fadeInDown 1s;
+  -o-animation: fadeInDown 1s;
+  animation: fadeInDown 1s;
 }

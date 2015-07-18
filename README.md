@@ -1,5 +1,5 @@
 # Personal Website
-[www.brandycarney.com](www.brandycarney.com)
+[www.brandycarney.com](http://www.brandycarney.com)
 
 ## Run Locally
 ```

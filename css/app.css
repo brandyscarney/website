@@ -20,12 +20,11 @@ body {
 .black-bg {
   margin-left: 401px;
   height: 100%;
-  overflow: hidden;
+  min-height: 650px;
   background-color: black;
 }
 .img-container {
-  height: 100%;
-  overflow: hidden;
+  height: inherit;
   background-size: cover;
   background-position: center;
   background-image:url("../img/abstract.jpg");
@@ -35,13 +34,20 @@ body {
   font-weight: 100;
   font-size: 300%;
   letter-spacing: 1px;
-  margin-bottom: 0;
+  margin-top: 0;
+}
+.main-image, .header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-image img {
+  width: 150px;
+  border-radius: 75px;
 }
 .content {
   font-weight: 300;
   color: #333;
   font-size: 115%;
-  padding: 40px 0;
   letter-spacing: 0.5px;
 }
 .content p {
@@ -106,6 +112,11 @@ a::selection {
 .delay-one {
   -webkit-animation-delay: 500ms;
   animation-delay: 500ms;
+}
+
+.delay-two {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 @keyframes fadeInDown {

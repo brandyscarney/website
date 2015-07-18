@@ -34,6 +34,7 @@ body {
   font-weight: 100;
   font-size: 300%;
   letter-spacing: 1px;
+  margin-bottom: 0;
 }
 .content {
   font-weight: 300;
@@ -100,7 +101,7 @@ a::selection {
   animation-duration:1s;
 }
 
-.fade-in.one {
+.delay-one {
   -webkit-animation-delay: 500ms;
   animation-delay: 500ms;
 }
@@ -152,9 +153,17 @@ a::selection {
 }
 
 .fade-in-down {
-  -webkit-animation: fadeInDown 1s;
-  -moz-animation: fadeInDown 1s;
-  -ms-animation: fadeInDown 1s;
-  -o-animation: fadeInDown 1s;
-  animation: fadeInDown 1s;
+  opacity:0;
+  opacity:1 \9;
+  -webkit-animation:fadeInDown ease-in 1;
+  -moz-animation:fadeInDown ease-in 1;
+  animation:fadeInDown ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
 }

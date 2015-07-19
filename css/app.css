@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 40px;
   max-width: 400px;
-  min-height: 650px;
+  min-height: 750px;
   height: 100%;
   float: left;
   position: relative;
@@ -20,7 +20,7 @@ body {
 .black-bg {
   margin-left: 401px;
   height: 100%;
-  min-height: 650px;
+  min-height: 750px;
   background-color: black;
 }
 .img-container {

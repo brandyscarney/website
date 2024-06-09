@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "http-server & open http://localhost:8080",
+    "lint": "npx prettier . --write"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "3.3.1"
+  }
+}

@@ -4,16 +4,11 @@
 
 ## Development
 
-1. Install `http-server`
+Clone this repository, then run the following:
 
-  ```bash
-  npm install -g http-server
-  ```
+```bash
+npm i
+npm start
+```
 
-2. Run Server
-
-  ```bash
-  http-server ./
-  ```
-
-3. Navigate in browser to localhost: http://localhost:8080/
+A browser should open at http://localhost:8080/

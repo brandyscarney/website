@@ -1,82 +1,180 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Personal website for Brandy Carney" />
-    <meta name="keywords" content="brandy,carney" />
-    <meta name="author" content="Brandy Carney" />
-    <meta property="og:image" content="img/me.jpg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="description" content="Personal website for Brandy Smith" />
+    <meta
+      name="keywords"
+      content="brandy,smith,website,developer,software,engineer"
+    />
+    <meta name="author" content="Brandy Smith" />
 
-    <title>Brandy Carney</title>
-    <link
-      href="http://fonts.googleapis.com/css?family=Roboto:400,100,300"
-      rel="stylesheet"
-      type="text/css"
+    <meta property="og:title" content="Brandy Smith - Software Engineer" />
+    <meta
+      property="og:description"
+      content="Florida-based Software Engineer specializing in frontend development and design systems"
     />
-    <link href="css/app.css" rel="stylesheet" />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-      rel="stylesheet"
-    />
+    <meta property="og:image" content="assets/images/headshot-bg.png" />
+    <meta property="og:url" content="https://brandysmith.dev" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+    <title>Brandy Smith</title>
+
+    <link href="styles/app.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.2.0/dist/iconify-icon.min.js"></script>
+
+    <link rel="preload" href="assets/images/headshot.png" as="image" />
+    <link rel="preload" href="styles/app.css" as="style" />
   </head>
+
   <body>
-    <div class="main-container">
-      <div class="header fade-in">
-        <h1>Brandy Carney</h1>
-      </div>
-      <div class="main-image fade-in delay-one">
-        <img src="img/me.jpg" />
-      </div>
-      <div class="content fade-in delay-two">
-        <p>Developer, Animal lover, Drinker of wine.</p>
-        <p>
-          Born and raised in the Sunshine State, where I currently live. I
-          studied Computer Science at the University of North Florida.
-        </p>
-        <p>
-          I enjoy helping people while continuing to learn myself. I'm glad to
-          be a part of a great team at
-          <a href="https://ionicframework.com/team" target="_blank">Ionic</a>.
-        </p>
-        <p>
-          Say hi on Twitter
-          <a target="_blank" href="https://twitter.com/brandyscarney"
-            >@brandyscarney</a
-          >!
-        </p>
-      </div>
-      <div class="row social-icons fade-in-down delay-two">
-        <div class="col-xs-3">
-          <a target="_blank" href="https://twitter.com/brandyscarney"
-            ><i class="icon ion-social-twitter"></i
-          ></a>
+    <div class="site-container">
+      <header>
+        <div class="content">
+          <img
+            src="assets/images/favicon.png"
+            alt="Brandy Smith Logo"
+            loading="lazy"
+          />
+
+          <nav aria-label="Social media links">
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/brandyscarney"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="clear"
+                  aria-label="GitHub profile of Brandy Smith"
+                >
+                  <iconify-icon
+                    icon="simple-icons:github"
+                    aria-hidden="true"
+                  ></iconify-icon>
+                  <span class="link-text">GitHub</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/brandyssmith"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="clear"
+                  aria-label="LinkedIn profile of Brandy Smith"
+                >
+                  <iconify-icon
+                    icon="simple-icons:linkedin"
+                    aria-hidden="true"
+                  ></iconify-icon>
+                  <span class="link-text">LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://bsky.app/profile/brandysmith.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="clear"
+                  aria-label="Bluesky profile of Brandy Smith"
+                >
+                  <iconify-icon
+                    icon="simple-icons:bluesky"
+                    aria-hidden="true"
+                  ></iconify-icon>
+                  <span class="link-text">Bluesky</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://codepen.io/brandyshea"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="clear"
+                  aria-label="CodePen profile of Brandy Smith"
+                >
+                  <iconify-icon
+                    icon="simple-icons:codepen"
+                    aria-hidden="true"
+                  ></iconify-icon>
+                  <span class="link-text">CodePen</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="col-xs-3">
-          <a target="_blank" href="http://codepen.io/brandyscarney"
-            ><i class="icon ion-social-codepen"></i
-          ></a>
-        </div>
-        <div class="col-xs-3">
-          <a target="_blank" href="https://github.com/brandyscarney"
-            ><i class="icon ion-social-github"></i
-          ></a>
-        </div>
-        <div class="col-xs-3">
-          <a
-            target="_blank"
-            href="http://forum.ionicframework.com/users/brandyshea"
-            ><i class="icon ion-ionic"></i
-          ></a>
-        </div>
-      </div>
+
+        <a
+          id="contact-button"
+          class="outline"
+          aria-live="polite"
+          href="mailto:me@brandysmith.dev"
+          aria-label="Send email to Brandy Smith"
+          >Get in Touch</a
+        >
+      </header>
+
+      <main>
+        <section>
+          <h1>Brandy Smith</h1>
+          <p>
+            Hi, I'm Brandy! I'm a Florida-based Software Engineer with
+            <span id="years-experience">13</span> years of experience, including
+            <span id="ionic-years-experience">10</span> years working on the
+            Ionic Framework team. I specialize in frontend development and
+            design systems, focusing on UI components, styling, and API design.
+            I develop components from Figma designs and native examples,
+            ensuring pixel-perfect consistency across iOS, Material Design, and
+            custom design systems. I'm a big fan of the web platform and have
+            experience with web components, Shadow DOM, and test-driven
+            development. I'm passionate about creating intuitive, user-friendly
+            interfaces and designing APIs that make the most sense for
+            developers.
+          </p>
+        </section>
+      </main>
     </div>
-    <div class="black-bg">
-      <div class="img-container fade-in"></div>
-    </div>
+
+    <script>
+      // Calculate total years of experience since 2012
+      const startYear = 2012;
+      const currentYear = new Date().getFullYear();
+      const yearsExperience = currentYear - startYear;
+
+      document.getElementById("years-experience").textContent = yearsExperience;
+
+      // Calculate years of Ionic experience since 2015
+      const ionicStartYear = 2015;
+      const ionicYearsExperience = currentYear - ionicStartYear;
+
+      document.getElementById("ionic-years-experience").textContent =
+        ionicYearsExperience;
+
+      // Dynamic placement for the contact button
+      const contactButton = document.getElementById("contact-button");
+      const mainSection = document.querySelector("main > section");
+      const mediaQuery = window.matchMedia("(max-width: 768px)");
+
+      function moveContactButton(e) {
+        if (e.matches) {
+          if (!mainSection.contains(contactButton))
+            mainSection.appendChild(contactButton);
+        } else {
+          const header = document.querySelector("header");
+          if (!header.contains(contactButton))
+            header.appendChild(contactButton);
+        }
+      }
+
+      moveContactButton(mediaQuery);
+      mediaQuery.addEventListener("change", moveContactButton);
+    </script>
   </body>
 </html>

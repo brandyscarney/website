@@ -1,6 +1,6 @@
 # Personal Website
 
-[www.brandycarney.com](http://www.brandycarney.com)
+[www.brandysmith.dev](http://www.brandysmith.dev)
 
 ## Development
 
